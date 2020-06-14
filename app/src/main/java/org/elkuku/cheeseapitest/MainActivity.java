@@ -36,11 +36,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d("GG", getResources().getString(R.string.web_client_id));
         SignInButton googleSignInButton = findViewById(R.id.sign_in_button);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-//                .requestIdToken(getResources().getString(R.string.web_client_id))
+                .requestIdToken(getResources().getString(R.string.web_client_id))
                 .requestEmail()
                 .build();
 
