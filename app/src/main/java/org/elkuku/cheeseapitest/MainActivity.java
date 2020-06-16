@@ -82,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, ProfileActivity.class);
         intent.putExtra(ProfileActivity.GOOGLE_ACCOUNT, googleSignInAccount);
+        intent.putExtra("idToken", idToken);
 
         startActivity(intent);
         finish();
-
     }
 }

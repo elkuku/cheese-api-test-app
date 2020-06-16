@@ -7,38 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
-    <ImageView
-        android:layout_margin="20dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/profile_image"
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
-
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_margin="10dp"
-        tools:text="Irshad Kumail"
         android:id="@+id/profile_text"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        tools:text="User Name"
         android:textSize="16sp"
-        android:layout_below="@id/profile_image"
-        android:layout_centerHorizontal="true"
+        android:layout_centerHorizontal="false"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:textSize="14sp"
-        android:id="@+id/profile_email"
-        android:layout_width="wrap_content"
+        android:id="@+id/profile_debug"
         android:layout_margin="10dp"
-        tools:text="irshadkumail@gmail.com"
-        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/profile_text"
-        android:layout_height="wrap_content" />
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        tools:text="debug" />
+
+
+    <Button
+        android:id="@+id/btn_events"
+        android:layout_above="@id/btn_cheeese"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Ingress Events" />
+
+    <Button
+        android:id="@+id/btn_cheeese"
+        android:layout_above="@id/sign_out"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cheeese" />
 
     <Button
         android:layout_width="140dp"
         android:text="SIGN OUT"
         android:id="@+id/sign_out"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_height="wrap_content" />
