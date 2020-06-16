@@ -8,3 +8,9 @@
 * https://androidclarified.com/google-signin-android-example/
 
 * https://github.com/googleapis/google-api-php-client
+
+* https://www.googleapis.com/oauth2/v1/certs
+
+### Android requests
+
+* https://developer.android.com/training/volley/simple
